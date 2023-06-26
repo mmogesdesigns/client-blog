@@ -1,0 +1,113 @@
+*{
+    font-family: 'Lora', serif; 
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+header{
+    background-color:#EFF7CF ;
+    padding:10px;  
+    font-size: 20px; 
+    text-align:center;
+}
+nav{
+    background-color:#EFF7CF ;
+    display: flex ;
+    justify-content: space-around;
+
+}
+nav a{
+    border:3px solid #420c14;
+    padding:17px;
+    background-color:#EFF7CF  ;
+    font-size:15px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color:bisque;
+    transition: all 1s ;
+  }
+.karla {
+    text-align:center;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(images/student.background.cropped.jpg);
+}
+.karla figure{
+    animation: slide 8s infinite linear;
+}
+  @keyframes slide{
+        0%{
+            transform: scale(.5);
+        }
+        50%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale3d(.5);
+        } 
+}
+.quote{
+    font-size:25px;
+    border:3px solid #ABA361;
+    text-align: center;
+    margin-top: 50px;
+    padding:50px;
+    background-color:#EFF7CF
+
+}
+figcaption{
+    border:3px solid #ABA361;
+    background-color:#EFF7CF;
+    padding:10px;
+    margin:none;
+    font-size: 10px;
+}
+figcaption h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.building{
+    display: flex;
+    justify-content: space-around;
+}
+.building figcaption{
+    
+    width:250px;
+    font-size: 15px;
+ 
+}
+.building h1{
+    
+    padding:0;
+    font-size:xx-large
+    
+}
+main{
+    background-color:#BAD9B5 ;
+    padding-bottom: 200px;
+    
+}
+main h1{
+    font-size: 40px;
+    padding:25px;
+    
+}
+.building figure:hover{
+    transform:rotate(15deg);
+}
+
+footer{
+    background-color:#ABA361 ;
+    text-align: center;
+    padding-top:90px;   
+}
+footer p{
+    font-size:20px
+   
+}
